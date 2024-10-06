@@ -1,0 +1,292 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.whole{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    
+}
+
+.nav img{
+
+    width: 120px;
+    height: 40px;
+    padding: 18px;
+    
+}
+.nav{
+    width: 100vw;
+    background-color: aqua;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    
+}
+
+
+
+.text h1{
+    font-size: 50px;
+    
+}
+.text{
+    padding: 50px;
+    width: 500px;
+    /* background-color: aqua; */
+    
+    display: block;
+    
+}
+ button{
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 10px 35px;
+    color: rgb(0, 140, 255);
+    margin-top: 50px;
+    
+
+
+}
+
+button:hover{
+    background-color:rgb(0, 140, 255) ;
+    color: white;
+    cursor: pointer;
+}
+
+   
+.img img{
+    width: 550px;
+    height: 400px;
+    margin-top: px;
+    animation-name: img;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   }
+
+   @keyframes img {
+
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+    100%{
+
+        transform: translateY(10px);
+    }
+    
+   }
+
+.txt2{
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
+.txt2 h1{
+    margin-bottom: 10px;
+}
+
+
+.box {
+    width: 180px;
+    /* border: 1px solid black; */
+    padding: 14px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 225, 255, 0.671) ;
+}
+.box p{
+    line-height: 30px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+   
+    column-gap: 100px;
+    margin-bottom: 30px;
+
+}
+
+.box i{
+        background-color: rgb(30, 154, 255);
+        font-size: 30px;
+        color: white;
+        border-radius:100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        /* display: block; */
+    }
+
+    .card :hover{
+        background-color:rgba(0, 225, 255, 0.671) ;
+        color: white;
+        
+
+
+
+    }
+.txt3{
+    text-align: center;
+    display: block;
+    
+    
+    
+}
+.txt3 h1{
+    margin-bottom: 10px;
+    
+    
+}
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+.abt{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.para1, .para2{
+    /* border: 2px solid black; */
+    width: 520px;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+
+}
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px;
+
+}
+.cupimg img{
+width: 483px;
+height: 275px;
+
+}
+
+.almosttxt1, .almosttxt2{
+
+    font-size: 20px;
+    width: 300px;
+    padding-top: 50px;
+    position: relative;
+   
+    
+}
+
+.almost{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.contact{
+
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.almost i{
+    position: absolute;
+    left: -45px;
+    top: 58px;
+    color: rgb(0, 81, 255);
+
+    font-size: 35px;
+}
+
+
+.contact1{
+
+    width: 320px;
+    line-height: 25px;
+    /* padding: 20px; */
+    
+
+}
+.contact1 h1{
+    margin-bottom: 20px;
+
+}
+
+.smicons i{
+    margin-top: 15px;
+
+    font-size: 20px;
+    color: rgb(0, 102, 255);
+    border: 1px solid rgb(0, 102, 255);
+    border-radius: 100%;
+    padding: 5px;
+    
+}
+.smicons :hover {
+
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.contact2{
+
+    width: 200px;
+    line-height: 30px;
+}
+.contact2 i{
+
+color:rgb(0, 102, 255) ;
+font-size: 30px;
+position: absolute;
+margin-left: -35px;
+}
+
+
+
+.contactwhole{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.contact3 input{
+
+    width: 280px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    height: 30px;
+
+}
+.contact3 .msg{
+    height: 70px;
+}
+
+
+
+
